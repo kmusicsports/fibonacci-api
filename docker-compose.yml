@@ -1,0 +1,10 @@
+version: '1'
+
+services:
+  app:
+    build:
+      context: ./
+    container_name: lambda_python3
+    ports:
+      - 9000:8080
+
